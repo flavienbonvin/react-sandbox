@@ -1,30 +1,24 @@
-# React + TypeScript + Vite
+<p align="center">
+  <img alt="flavienbonvin.com" src="public/favicon.svg" width="100" />
+</p>
+<h1 align="center">
+  flavienbonvin.com
+</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">My personal playground</p>
 
-Currently, two official plugins are available:
+## About the author
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Hello 🦆 I'm Flavien Bonvin and I'm a frontend engineer. This project contains some React experiment that helps me understand some concepts. The list is small for the moment but I intend to make it grow as I found new things to share.
 
-## Expanding the ESLint configuration
+I also have a personal blog that can be found here: [flavienbonvin.com](flavienbonvin.com).
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+You can find me in the following social networks:
 
-- Configure the top-level `parserOptions` property like this:
+- [X (Twitter) (@flavienbonv)](https://twitter.com/flavienbonvin)
+- [GitHub (flavienbonvin)](https://github.com/flavienbonvin)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
-    project: ["./tsconfig.json", "./tsconfig.node.json"],
-    tsconfigRootDir: __dirname,
-  },
-};
-```
+## Tech stack
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- [Vite](https://vitejs.dev/) to build the React project.
+- [Tailwind](https://tailwindcss.com/) for styling.
